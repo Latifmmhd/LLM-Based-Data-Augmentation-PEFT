@@ -1,0 +1,140 @@
+100% 2208/2208 [04:22<00:00,  8.40it/s]
+{'loss': 1.1087, 'grad_norm': 3.1736032962799072, 'learning_rate': 7.740036231884058e-05, 'epoch': 1.81}
+{'loss': 0.6393, 'grad_norm': 4.9379658699035645, 'learning_rate': 5.475543478260869e-05, 'epoch': 3.62}
+{'loss': 0.5828, 'grad_norm': 3.7645554542541504, 'learning_rate': 3.2110507246376815e-05, 'epoch': 5.43}
+{'loss': 0.5563, 'grad_norm': 4.816082000732422, 'learning_rate': 9.465579710144929e-06, 'epoch': 7.25}
+{'train_runtime': 275.7401, 'train_samples_per_second': 255.893, 'train_steps_per_second': 8.008, 'train_loss': 0.7041865224423616, 'epoch': 8.0}
+[32m[I 2026-07-20 02:03:01,374][0m Trial 0 finished with value: 0.7041865224423616 and parameters: {'num_train_epochs': 8, 'learning_rate': 0.0001, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 32, 'weight_decay': 0.07961410685562559}. Best is trial 0 with value: 0.7041865224423616.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6336.99 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6266.98 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6252.90 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 552/552 [01:05<00:00,  8.39it/s]
+{'loss': 1.1978, 'grad_norm': 3.3860411643981934, 'learning_rate': 9.601449275362319e-06, 'epoch': 1.81}
+{'train_runtime': 65.7909, 'train_samples_per_second': 268.122, 'train_steps_per_second': 8.39, 'train_loss': 1.1620534952136055, 'epoch': 2.0}
+[32m[I 2026-07-20 02:04:11,507][0m Trial 1 finished with value: 1.1620534952136055 and parameters: {'num_train_epochs': 2, 'learning_rate': 0.0001, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 64, 'weight_decay': 0.021892705125598513}. Best is trial 0 with value: 0.7041865224423616.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6420.55 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6365.68 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6494.86 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1656/1656 [01:49<00:00, 15.07it/s]
+{'loss': 0.8861, 'grad_norm': 4.651528358459473, 'learning_rate': 0.0002096014492753623, 'epoch': 0.91}
+{'loss': 0.5933, 'grad_norm': 3.6126909255981445, 'learning_rate': 0.00011902173913043477, 'epoch': 1.81}
+{'loss': 0.5141, 'grad_norm': 4.877349853515625, 'learning_rate': 2.8442028985507245e-05, 'epoch': 2.72}
+{'train_runtime': 109.9229, 'train_samples_per_second': 240.714, 'train_steps_per_second': 15.065, 'train_loss': 0.6511636125868645, 'epoch': 3.0}
+[32m[I 2026-07-20 02:06:05,588][0m Trial 2 finished with value: 0.6511636125868645 and parameters: {'num_train_epochs': 3, 'learning_rate': 0.0003, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 32, 'weight_decay': 0.04209249762875744}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6371.51 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6509.18 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6452.10 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1380/1380 [02:44<00:00,  8.40it/s]
+{'loss': 1.7085, 'grad_norm': 2.454402208328247, 'learning_rate': 1.2768115942028987e-05, 'epoch': 1.81}
+{'loss': 1.3961, 'grad_norm': 3.202122926712036, 'learning_rate': 5.521739130434783e-06, 'epoch': 3.62}
+{'train_runtime': 164.3603, 'train_samples_per_second': 268.313, 'train_steps_per_second': 8.396, 'train_loss': 1.4594273221665535, 'epoch': 5.0}
+[32m[I 2026-07-20 02:08:54,106][0m Trial 3 finished with value: 1.4594273221665535 and parameters: {'num_train_epochs': 5, 'learning_rate': 2e-05, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 16, 'weight_decay': 0.041043087702290176}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6343.15 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6339.95 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6323.33 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1380/1380 [05:09<00:00,  4.46it/s]
+{'loss': 0.9844, 'grad_norm': 3.1325466632843018, 'learning_rate': 6.384057971014493e-05, 'epoch': 3.62}
+{'loss': 0.605, 'grad_norm': 3.1743392944335938, 'learning_rate': 2.7608695652173917e-05, 'epoch': 7.25}
+{'train_runtime': 309.1011, 'train_samples_per_second': 285.344, 'train_steps_per_second': 4.465, 'train_loss': 0.7302075703938802, 'epoch': 10.0}
+[32m[I 2026-07-20 02:14:07,516][0m Trial 4 finished with value: 0.7302075703938802 and parameters: {'num_train_epochs': 10, 'learning_rate': 0.0001, 'per_device_train_batch_size': 64, 'per_device_eval_batch_size': 32, 'weight_decay': 0.08688226522485086}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6282.48 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6363.12 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6270.23 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 2760/2760 [03:03<00:00, 15.02it/s]
+{'loss': 1.6774, 'grad_norm': 3.651646614074707, 'learning_rate': 2.457608695652174e-05, 'epoch': 0.91}
+{'loss': 1.1534, 'grad_norm': 3.4862208366394043, 'learning_rate': 1.9141304347826087e-05, 'epoch': 1.81}
+{'loss': 0.8819, 'grad_norm': 8.0262451171875, 'learning_rate': 1.3706521739130436e-05, 'epoch': 2.72}
+{'loss': 0.817, 'grad_norm': 6.068447113037109, 'learning_rate': 8.271739130434782e-06, 'epoch': 3.62}
+{'loss': 0.7751, 'grad_norm': 6.431863307952881, 'learning_rate': 2.8369565217391305e-06, 'epoch': 4.53}
+{'train_runtime': 183.756, 'train_samples_per_second': 239.992, 'train_steps_per_second': 15.02, 'train_loss': 1.03352264183155, 'epoch': 5.0}
+[32m[I 2026-07-20 02:17:15,552][0m Trial 5 finished with value: 1.03352264183155 and parameters: {'num_train_epochs': 5, 'learning_rate': 3e-05, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 32, 'weight_decay': 0.05069671467795203}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6366.89 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6377.75 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6410.58 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1656/1656 [03:17<00:00,  8.38it/s]
+{'loss': 1.5833, 'grad_norm': 8.310798645019531, 'learning_rate': 2.0960144927536232e-05, 'epoch': 1.81}
+{'loss': 1.0226, 'grad_norm': 5.046864986419678, 'learning_rate': 1.1902173913043479e-05, 'epoch': 3.62}
+{'loss': 0.8636, 'grad_norm': 6.077340126037598, 'learning_rate': 2.8442028985507247e-06, 'epoch': 5.43}
+{'train_runtime': 197.5164, 'train_samples_per_second': 267.927, 'train_steps_per_second': 8.384, 'train_loss': 1.1267141904232008, 'epoch': 6.0}
+[32m[I 2026-07-20 02:20:37,343][0m Trial 6 finished with value: 1.1267141904232008 and parameters: {'num_train_epochs': 6, 'learning_rate': 3e-05, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 32, 'weight_decay': 0.02728753851787379}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6307.78 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6278.14 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6382.71 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1380/1380 [05:09<00:00,  4.46it/s]
+{'loss': 1.24, 'grad_norm': 3.952620506286621, 'learning_rate': 3.1920289855072465e-05, 'epoch': 3.62}
+{'loss': 0.7268, 'grad_norm': 2.9916815757751465, 'learning_rate': 1.3804347826086959e-05, 'epoch': 7.25}
+{'train_runtime': 309.4773, 'train_samples_per_second': 284.997, 'train_steps_per_second': 4.459, 'train_loss': 0.8952123890752378, 'epoch': 10.0}
+[32m[I 2026-07-20 02:25:51,192][0m Trial 7 finished with value: 0.8952123890752378 and parameters: {'num_train_epochs': 10, 'learning_rate': 5e-05, 'per_device_train_batch_size': 64, 'per_device_eval_batch_size': 8, 'weight_decay': 0.07978798347632107}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6283.78 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6372.32 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6383.42 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 2208/2208 [04:23<00:00,  8.37it/s]
+{'loss': 1.7041, 'grad_norm': 2.607213020324707, 'learning_rate': 1.5480072463768117e-05, 'epoch': 1.81}
+{'loss': 1.2584, 'grad_norm': 5.404059886932373, 'learning_rate': 1.095108695652174e-05, 'epoch': 3.62}
+{'loss': 0.9914, 'grad_norm': 4.608327388763428, 'learning_rate': 6.422101449275363e-06, 'epoch': 5.43}
+{'loss': 0.9036, 'grad_norm': 3.8067402839660645, 'learning_rate': 1.8931159420289858e-06, 'epoch': 7.25}
+{'train_runtime': 263.9478, 'train_samples_per_second': 267.326, 'train_steps_per_second': 8.365, 'train_loss': 1.1826881809511047, 'epoch': 8.0}
+[32m[I 2026-07-20 02:30:19,452][0m Trial 8 finished with value: 1.1826881809511047 and parameters: {'num_train_epochs': 8, 'learning_rate': 2e-05, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 32, 'weight_decay': 0.009367124827706408}. Best is trial 2 with value: 0.6511636125868645.[0m
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at indolem/indobertweet-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100% 8820/8820 [00:01<00:00, 6320.24 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6351.78 examples/s]
+Map: 100% 1890/1890 [00:00<00:00, 6419.14 examples/s]
+/content/Emotion-classification-with-PEFT_Augmented_bnf16/hp_tuning_peft.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+100% 1103/1103 [00:48<00:00, 22.92it/s]
+{'loss': 1.4265, 'grad_norm': 8.34611988067627, 'learning_rate': 5.475974614687217e-05, 'epoch': 0.45}
+{'loss': 0.8937, 'grad_norm': 6.860591411590576, 'learning_rate': 9.42883046237534e-06, 'epoch': 0.91}
+{'train_runtime': 48.1403, 'train_samples_per_second': 183.214, 'train_steps_per_second': 22.912, 'train_loss': 1.1275031746028232, 'epoch': 1.0}
+[32m[I 2026-07-20 02:31:11,940][0m Trial 9 finished with value: 1.1275031746028232 and parameters: {'num_train_epochs': 1, 'learning_rate': 0.0001, 'per_device_train_batch_size': 8, 'per_device_eval_batch_size': 32, 'weight_decay': 0.03736055425975151}. Best is trial 2 with value: 0.6511636125868645.[0m
+
+
+Best value:  0.6511636125868645
+
+
+Best params:  {'num_train_epochs': 3, 'learning_rate': 0.0003, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 32, 'weight_decay': 0.04209249762875744}
+
+
+Best trial:  FrozenTrial(number=2, state=<TrialState.COMPLETE: 1>, values=[0.6511636125868645], datetime_start=datetime.datetime(2026, 7, 20, 2, 4, 11, 508280), datetime_complete=datetime.datetime(2026, 7, 20, 2, 6, 5, 588300), params={'num_train_epochs': 3, 'learning_rate': 0.0003, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 32, 'weight_decay': 0.04209249762875744}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'num_train_epochs': IntDistribution(high=10, log=False, low=1, step=1), 'learning_rate': CategoricalDistribution(choices=(0.0001, 0.0003, 2e-05, 3e-05, 5e-05)), 'per_device_train_batch_size': CategoricalDistribution(choices=(8, 16, 32, 64)), 'per_device_eval_batch_size': CategoricalDistribution(choices=(8, 16, 32, 64)), 'weight_decay': FloatDistribution(high=0.1, log=False, low=0.0, step=None)}, trial_id=2, value=None)
+JSON file created!

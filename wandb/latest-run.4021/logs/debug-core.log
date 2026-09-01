@@ -1,0 +1,7 @@
+{"time":"2026-07-20T06:29:42.276208462Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpr_wn16mm/port-4021.txt","pid":4021,"detached":false,"idle-timeout":600000000000,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-07-20T06:29:42.277026419Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":4021}
+{"time":"2026-07-20T06:29:42.276971666Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-4021-5134-128861188/socket","Net":"unix"}}
+{"time":"2026-07-20T06:29:42.422989778Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-07-20T06:29:42.747742044Z","level":"INFO","msg":"handleInformInit: received","streamId":"53evhnnx","id":"1(@)"}
+{"time":"2026-07-20T06:29:42.874106109Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"53evhnnx","id":"1(@)"}
+{"time":"2026-07-20T06:29:49.12664492Z","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"rac89hv5mmol"}

@@ -1,0 +1,12 @@
+absl-py
+accelerate
+adapter-transformers
+datasets
+huggingface-hub
+numpy
+pandas
+peft @ git+https://github.com/huggingface/peft@cf04d0353f0343cbf66627228c4495f51669af34
+scikit-learn
+torch
+transformers
+tqdm

@@ -1,0 +1,1 @@
+{"num_train_epochs": 3, "learning_rate": 0.0003, "per_device_train_batch_size": 16, "per_device_eval_batch_size": 32, "weight_decay": 0.04209249762875744}
